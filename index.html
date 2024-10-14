@@ -39,24 +39,23 @@
             color: #444;
             margin-bottom: 15px;
         }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
         .resume {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .resume button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
+        .resume iframe {
+            width: 100%;
+            height: 600px;
             border: none;
-            border-radius: 5px;
-            font-size: 1em;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .resume button:hover {
-            background-color: #0056b3;
         }
         footer {
             text-align: center;
@@ -76,31 +75,47 @@
 <div class="container">
     <section>
         <h2>About Me</h2>
-        <p>Hi, I'm Ben Simon, a junior Mechanical Engineering student at Clemson University with a passion for aerospace, motorsports, and engineering design. I have experience in 3D modeling, fluid mechanics, and working on the Clemson Formula SAE team. My goal is to bring innovative solutions to the world of engineering.</p>
+        <p>Hi, I'm Ben Simon, a junior Mechanical Engineering student at Clemson University with a passion for aerospace, motorsports, and engineering design. My objective is to obtain a Mechanical Engineering internship for Summer 2025, expand my technical and communication skills, and grow as a passionate aspiring engineer.</p>
     </section>
 
     <section>
         <h2>Projects</h2>
-        <p>Here are some of the key projects I've worked on:</p>
+        <p>Key projects I've worked on:</p>
         <ul>
-            <li>Formula SAE Car: Carbon fiber body panel bonding and aerodynamic testing.</li>
-            <li>Strain Gauge Experiment: Analyzing beam deformation using FEA and experimental data.</li>
-            <li>Piston-Cylinder Simulation: Simulated high-pressure piston compression with ANSYS.</li>
+            <li><strong>Clemson Formula SAE Club</strong> (Fall 2022 - Present)</li>
+            <ul>
+                <li>Designed, modeled, and validated a Carbon Fiber Sidepod using Solidworks and Ansys Fluent</li>
+                <li>Conducted CFD simulations optimizing for Mass Flow Rate and Heat Transfer Rate targets</li>
+                <li>Fabricated Carbon Fiber parts with various weaves, orientations, cores, and layup schedules</li>
+                <li>Validated system using pressure sensors, thermocouples, tufts, and flow-visualization testing</li>
+                <li>Revamped an Excel database indexing part weights across different divisions of the team</li>
+            </ul>
+            <li><strong>Crane Instrumentation and Sampling Internship</strong> (Summer 2024)</li>
+            <ul>
+                <li>Restored communication interfaces to meet operator and manager goals</li>
+                <li>Created automatic audits and weekly emails for critical KPIs</li>
+                <li>Contributed to Kaizen sessions using 5S and CBS philosophy, improving workflow efficiency</li>
+            </ul>
+            <li><strong>Approach Aviation Internship</strong> (Spring 2018 - 2022)</li>
+            <ul>
+                <li>Worked on building a Titan T-51 Aircraft (metalwork, electronics, and hydraulics)</li>
+                <li>Fabricated Aluminum skins, seat enclosures, and floor panels</li>
+                <li>Designed electrical solutions and wired battery systems for charging via APU</li>
+            </ul>
         </ul>
     </section>
 
     <section>
         <h2>Resume</h2>
         <div class="resume">
-            <p>Download my resume to learn more about my skills, experience, and certifications:</p>
-            <a href="Ben Simon Resume.pdf" download>
-                <button>Download Resume</button>
-            </a>
+            <p>View my resume directly below:</p>
+            <iframe src="resume.pdf"></iframe>
         </div>
     </section>
 </div>
 
 <footer>
+    <p>Contact: BenSimon676@gmail.com | 978-989-1083 | <a href="https://linkedin.com/in/bensimon676" target="_blank" style="color: white;">LinkedIn</a></p>
     <p>&copy; 2024 Ben Simon. All rights reserved.</p>
 </footer>
 
